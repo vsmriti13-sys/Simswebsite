@@ -168,7 +168,7 @@ export const projects: Project[] = [
     status: "live",
     tags: ["Gamification", "UDL", "AI"],
     image: {
-      src: "/projects/questcraft.png",
+      src: "/projects/questcraft.webp",
       alt: "QuestCraft preview: a classroom adventure game for teachers",
     },
     link: { href: "https://education-smoky-delta.vercel.app", label: "Visit QuestCraft" },

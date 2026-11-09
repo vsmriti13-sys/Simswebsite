@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: site.name,
     locale: "en_GB",
     type: "website",
-    images: [{ url: "/smriti-vasistha.jpg", width: 762, height: 810, alt: site.name }],
+    images: [{ url: "/smriti-vasistha.webp", width: 520, height: 553, alt: site.name }],
   },
   alternates: { canonical: "/" },
 };

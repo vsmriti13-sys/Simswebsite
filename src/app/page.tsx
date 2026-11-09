@@ -68,10 +68,10 @@ function HeroSection() {
           <Orbit words={orbitWords} />
           <div className="portrait-photo">
             <Image
-              src="/smriti-vasistha.jpg"
+              src="/smriti-vasistha.webp"
               alt={`Portrait of ${site.name}, smiling, with the rooftops of Prague in the background`}
-              width={762}
-              height={810}
+              width={520}
+              height={553}
               priority
               sizes="(max-width: 880px) 70vw, 340px"
             />
@@ -343,7 +343,7 @@ const personJsonLd = {
   "@type": "Person",
   name: site.name,
   url: site.url,
-  image: `${site.url}/smriti-vasistha.jpg`,
+  image: `${site.url}/smriti-vasistha.webp`,
   jobTitle: "Academic Director and Head Teacher Trainer",
   worksFor: { "@type": "Organization", name: "ITC International Prague" },
   address: { "@type": "PostalAddress", addressLocality: "Prague", addressCountry: "CZ" },
